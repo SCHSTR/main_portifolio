@@ -1,6 +1,6 @@
 const Footer:any = () => {
     return(
-        <h1>This is my footer!</h1>
+        <h6>This is my footer!</h6>
     )
 }
 
