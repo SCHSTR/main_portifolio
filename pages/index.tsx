@@ -9,12 +9,12 @@ import media from '../styles/media'
 
 const Hero = styled.div`
   ${media.desktop`
-    height: 80vh;
+    height: 90vh;
 
     .container{
       height: 100%;
       display: grid; 
-      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: 2fr 1fr; 
       gap: 0px 0px; 
       max-width: 1100px;
       margin-left: auto;
@@ -23,6 +23,11 @@ const Hero = styled.div`
 
     .hero-content{
       align-self: center;
+
+      p{
+        margin: 24px 0;
+        font-size: 1.3rem;
+      }
     }
   `}
 `

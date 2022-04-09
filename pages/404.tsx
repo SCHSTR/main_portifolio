@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { Body, Container } from '../styles/components'
+import { Body, Container, Btn } from '../styles/components'
 
 const Custom404: NextPage = () => {
     return (
